@@ -3,6 +3,7 @@
     align-items: center;
     flex-direction: column;
     padding-top: 100px;
+    
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
 }
 
 form {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.185);
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -24,6 +26,7 @@ form {
 }
 
 input {
+    
     border: 1px solid #48456C;
     background-color: #33324E;
     border-radius: 10px;
@@ -56,6 +59,7 @@ button:hover {
 
 
 .card {
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.185);
     display: flex;
     justify-content: space-between;
     font-size: 15px;
